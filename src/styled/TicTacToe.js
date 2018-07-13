@@ -2,7 +2,6 @@ import React from 'react'
 import {Layer, Line, Text} from 'react-konva'
 
 export const Board = ({unit, size, rows}) => {
-	console.log("unit:", unit);
 	let grid = []
 	let stroke = 'grey'
 	let strokeWidth = 10
