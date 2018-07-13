@@ -35,7 +35,7 @@ class Profile extends Component {
                     index={index}
                 >
                     <Column>
-                        {(game.winner) ? 'Winner, winner, chicken dinner!' : "Too bad. Better luck next time!"}
+                        {(game.winner) ? 'Winner, winner, chicken dinner!' : "Wah wah. Better luck next time!"}
                     </Column>
                     <Column>
                         "ROBOT"
